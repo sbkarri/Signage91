@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <AbsoluteLayout
+            android:id="@+id/assetLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        </AbsoluteLayout>
+
+        <ImageView
+            android:id="@+id/signageLogo"
+            android:layout_width="50sp"
+            android:scaleType="fitXY"
+            android:layout_margin="20dp"
+            android:src="@drawable/signage91"
+            android:layout_height="40sp"/>
+    </FrameLayout>
+
+</androidx.core.widget.NestedScrollView>

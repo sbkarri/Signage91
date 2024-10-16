@@ -1,0 +1,195 @@
+{
+    "statusCode": 200,
+    "data": {
+        "sectionDetails": {
+            "id": 1,
+            "name": "Primary Advertisement",
+            "hasCampaign": true,
+            "coordinates":{
+                "x": 0,
+                "y": 0,
+                "height": 50,
+                "width": 100
+            }
+        },
+        "campaigns": [
+            {
+                "id": 1,
+                "name": "test campaign1",
+                "sequence": 1,
+                "advertisementDetails": {
+                    "id": 9,
+                    "duration": 142,
+                    "name": "Test ad 1",
+                    "assetCoordinates": [
+                        {
+                            "coordinates": {
+                                "x": 0,
+                                "y": 0,
+                                "height": 50,
+                                "width": 100
+                            },
+                            "assets": [
+                                {
+                                    "id": 4336,
+                                    "type": "video",
+                                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                                    "duration": 62,
+                                    "isPrimary": true,
+                                    "repetitionAllowed": true,
+                                    "mute": false,
+                                    "filename": "bunny1.mp4"
+                                },
+                                {
+                                    "id": 4358,
+                                    "type": "image",
+                                    "url": "https://static.vecteezy.com/system/resources/previews/002/107/506/original/91-years-anniversary-celebration-logo-template-design-illustration-vector.jpg",
+                                    "duration": 80  ,
+                                    "isPrimary": true,
+                                    "repetitionAllowed": true,
+                                    "mute": false,
+                                    "filename": "img.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1,
+                "name": "test campaign1",
+                "sequence": 2,
+                "advertisementDetails": {
+                    "id": 10,
+                    "name": "Test ad 2",
+                    "duration": 140,
+                    "assetCoordinates": [
+                        {
+                            "coordinates": {
+                                "x": 0,
+                                "y": 0,
+                                "height": 25,
+                                "width": 100
+                            },
+                            "assets": [
+                                {
+                                    "id": 4336,
+                                    "type": "video",
+                                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                                    "duration": 62,
+                                    "isPrimary": true,
+                                    "repetitionAllowed": true,
+                                    "mute": false,
+                                    "filename": "bunny.mp4"
+                                },
+                                {
+                                    "id": 4381,
+                                    "type": "image",
+                                    "url": "https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
+                                    "duration": 80,
+                                    "isPrimary": false,
+                                    "repetitionAllowed": true,
+                                    "mute": false,
+                                    "filename": "test1.png"
+                                }
+                            ]
+                        },
+                        {
+                            "coordinates": {
+                                "x": 0,
+                                "y": 25,
+                                "height": 25,
+                                "width": 100
+                            },
+                            "assets": [
+                                {
+                                    "id": 4336,
+                                    "type": "video",
+                                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                                    "duration": 62,
+                                    "isPrimary": true,
+                                    "repetitionAllowed": true,
+                                    "mute": false,
+                                    "filename": "bunny.mp4"
+                                },
+                                {
+                                    "id": 4381,
+                                    "type": "image",
+                                    "url": "https://images.unsplash.com/photo-1592743263126-bb241ee76ac7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfHwwfHw%3D&w=1000&q=80",
+                                    "duration": 80,
+                                    "isPrimary": false,
+                                    "repetitionAllowed": true,
+                                    "mute": false,
+                                    "filename": "test2.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2,
+                "name": "test campaign2",
+                "sequence": 2,
+                "advertisementDetails": {
+                    "id": 10,
+                    "name": "Test ad camp 2",
+                    "duration": 150,
+                    "assetCoordinates": [
+                        {
+                            "coordinates": {
+                                "x": 0,
+                                "y": 0,
+                                "height": 50,
+                                "width": 50
+                            },
+                            "assets": [
+                                {
+                                    "id": 4380,
+                                    "type": "video",
+                                    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                                    "duration": 30,
+                                    "isPrimary": true,
+                                    "repetitionAllowed": true,
+                                    "mute": false,
+                                    "filename": "sample_30.mp4"
+                                }
+                            ]
+                        },
+                        {
+                            "coordinates": {
+                                "x": 50,
+                                "y": 0,
+                                "height": 50,
+                                "width": 50
+                            },
+                            "assets": [
+                                {
+                                    "id": 1,
+                                    "type": "video",
+                                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                                    "duration": 80,
+                                    "isPrimary": false,
+                                    "repetitionAllowed": true,
+                                    "mute": false,
+                                    "filename": "91slogo.mp4"
+                                },
+                                {
+                                    "id": 4381,
+                                    "type": "image",
+                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_LtrVoiz7CPrelm76hhAT8CDXad3pdx6SBg&usqp=CAU",
+                                    "duration": 80,
+                                    "isPrimary": false,
+                                    "repetitionAllowed": true,
+                                    "mute": false,
+                                    "filename": "promote.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "errors": []
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Signage91</string>
+
+    <!--Menu-->
+    <string name="select_file">Select Video</string>
+    <string name="image_button_desc">This is the play and pause button for the video player.</string>
+    <string name="default_value">00:00</string>
+    <string name="lorem_ipsume">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </string>
+    <string name="lorem_ipsume1">Lorem Ipsum is simply dummy text oforem Ipsum is simply dummy text of the printing and typesetting industry.  </string>
+    <string name="lorem_ipsume2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </string>
+    <string name="lorem_ipsume3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </string>
+    <string name="lorem_ipsume4">Lorem Ipsum is simply dummy ext of the printing and typesetting industry.  </string>
+    <string name="lorem_ipsume5">Lorem Ipsum is simply dummy text of the printis simply dummy text of the printing and typesetting industry.  </string>
+    <string name="lorem_ipsume6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </string>
+    <string name="lorem_ipsume7">Lorem Ipsum is simply dummy  and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

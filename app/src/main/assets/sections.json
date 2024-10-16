@@ -1,0 +1,81 @@
+{
+    "statusCode": 200,
+    "data": {
+        "deviceDetails": {
+
+        },
+        "sectionDetails": [
+            {
+                "sectionName": "Primary Advertisement",
+                "sectionId": 1,
+                "api": {
+                    "baseUrl": "https://91signage.com/communication-service",
+                    "url": "/campaign/video"
+                },
+                "coordinates": {
+                    "x": 0,
+                    "y": 0,
+                    "height": 50,
+                    "width": 100
+                }
+            },
+            {
+                "sectionName": "Youtube Section",
+                "sectionId": 2,
+                "api": {
+                    "baseUrl": "https://91signage.com/communication-service",
+                    "url": "/youtube"
+                },
+                "coordinates": {
+                    "x": 0,
+                    "y": 50,
+                    "height": 25,
+                    "width": 50
+                }
+            },
+            {
+                "sectionName": "91Signage Section",
+                "sectionId": 3,
+                "api": {
+                    "baseUrl": "https://91signage.com/communication-service",
+                    "url": "/91signage"
+                },
+                "coordinates": {
+                    "x": 50,
+                    "y": 50,
+                    "height": 25,
+                    "width": 50
+                }
+            },
+            {
+                    "sectionName": "Youtube Section",
+                "sectionId": 4,
+                "api": {
+                    "baseUrl": "https://91signage.com/communication-service",
+                    "url": "/collaborator"
+                },
+                "coordinates": {
+                    "x": 0,
+                    "y": 75,
+                    "height": 25,
+                    "width": 50
+                }
+            },
+            {
+                "sectionName": "Classified Section",
+                "sectionId": 5,
+                "api": {
+                    "baseUrl": "https://91signage.com/communication-service",
+                    "url": "/campaign/classifieds"
+                },
+                "coordinates": {
+                    "x": 50,
+                    "y": 75,
+                    "height": 25,
+                    "width": 50
+                }
+            }
+        ]
+    },
+    "errors": []
+}

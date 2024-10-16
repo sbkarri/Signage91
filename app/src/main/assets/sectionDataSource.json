@@ -1,0 +1,326 @@
+{
+  "statusCode": 200,
+  "data": [
+    {
+      "id": 1,
+      "name": "testCampaign1",
+      "sequence": 1,
+      "advertisementDetails": [
+        {
+          "id": "9",
+          "name": "Test Ad1",
+          "duration": 10000,
+          "assets": [
+            {
+              "assetType": "video",
+              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+              "duration": 30,
+              "mute": false,
+              "isPrimary": false,
+              "repetitionAllowed" : true,
+              "filename": "bucketz.mp4",
+              "coordinates": {
+                "x": 0,
+                "y": 0,
+                "height": 30,
+                "width": 100
+              }
+            },
+            {
+              "assetType": "image",
+              "url": "https://static.vecteezy.com/system/resources/previews/002/107/506/original/91-years-anniversary-celebration-logo-template-design-illustration-vector.jpg",
+              "mute": true,
+              "duration": 0,
+              "isPrimary": false,
+              "filename": "TestCorrupt.jpeg",
+              "coordinates": {
+                "x": 0,
+                "y": 30,
+                "height": 30,
+                "width": 55
+              }
+            },
+            {
+              "assetType": "rssimagefeed",
+              "url": "http://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
+              "mute": true,
+              "duration": 0,
+              "slidingDuration": 3000,
+              "isPrimary": false,
+              "coordinates": {
+                "x": 55,
+                "y": 30,
+                "height": 30,
+                "width": 45
+              }
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "name": "Test Ad14",
+          "duration": 10000,
+          "assets": [{
+            "assetType": "video",
+            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "mute": false,
+            "duration": 0,
+            "filename": "bucket1.mp4",
+            "isPrimary": false,
+            "coordinates": {
+              "x": 0,
+              "y": 0,
+              "height": 30,
+              "width": 100
+            }
+          },
+            {
+              "assetType": "imageList",
+              "urls": [{
+                "url": "https://static.vecteezy.com/system/resources/previews/002/107/506/original/91-years-anniversary-celebration-logo-template-design-illustration-vector.jpg",
+                "filename": "illuration.jpg"
+              },
+                {
+                  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_LtrVoiz7CPrelm76hhAT8CDXad3pdx6SBg&usqp=CAU",
+                  "filename": "encrypted.jpg"
+                },
+                {
+                  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsW_0xlCJoGS16rPmIFypllMUTpP4qZTN0_Q&usqp=CAU",
+                  "filename": "gstatic.jpg"
+                },
+                {
+                  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlx7JEiLWZY1WHcntrhD4n3E29ph9_SnTsfw&usqp=CAU",
+                  "filename": "image.jpg"
+                }
+              ],
+              "mute": true,
+              "duration": 0,
+              "isPrimary": false,
+              "coordinates": {
+                "x": 0,
+                "y": 30,
+                "height": 30,
+                "width": 45
+              }
+            },
+            {
+              "assetType": "youtube",
+              "url": "II_m28Bm-iM",
+              "mute": true,
+              "duration": 0,
+              "isPrimary": false,
+              "coordinates": {
+                "x": 45,
+                "y": 30,
+                "height": 30,
+                "width": 55
+              }
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "name": "Test Ad15",
+          "duration": 10000,
+          "assets": [{
+            "assetType": "videoList",
+            "urls": [{
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+              "filename": "bigbunnyy.mp4"
+            },
+              {
+                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                "filename": "Elephat2.mp4"
+              }
+            ],
+            "mute": false,
+            "duration": 15,
+            "isPrimary": false,
+            "coordinates": {
+              "x": 0,
+              "y": 0,
+              "height": 30,
+              "width": 100
+            }
+          },
+            {
+              "assetType": "image",
+              "url": "https://static.vecteezy.com/system/resources/previews/002/107/506/original/91-years-anniversary-celebration-logo-template-design-illustration-vector.jpg",
+              "mute": true,
+              "duration": 0,
+              "isPrimary": false,
+              "filename": "preview.jpg",
+              "coordinates": {
+                "x": 0,
+                "y": 30,
+                "height": 30,
+                "width": 100
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "testCampaign2",
+      "sequence": 2,
+      "advertisementDetails": [
+        {
+          "id": "10",
+          "name": "Test Ad12",
+          "duration": 10000,
+          "assets": [
+            {
+              "assetType": "video",
+              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+              "duration": 30,
+              "mute": false,
+              "isPrimary": false,
+              "repetitionAllowed" : true,
+              "filename": "bucketz.mp4",
+              "coordinates": {
+                "x": 0,
+                "y": 0,
+                "height": 30,
+                "width": 100
+              }
+            },
+            {
+              "assetType": "image",
+              "url": "https://static.vecteezy.com/system/resources/previews/002/107/506/original/91-years-anniversary-celebration-logo-template-design-illustration-vector.jpg",
+              "mute": true,
+              "duration": 0,
+              "isPrimary": false,
+              "filename": "TestCorrupt.jpeg",
+              "coordinates": {
+                "x": 0,
+                "y": 30,
+                "height": 30,
+                "width": 55
+              }
+            },
+            {
+              "assetType": "rssimagefeed",
+              "url": "http://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
+              "mute": true,
+              "duration": 0,
+              "slidingDuration": 3000,
+              "isPrimary": false,
+              "coordinates": {
+                "x": 55,
+                "y": 30,
+                "height": 30,
+                "width": 45
+              }
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "name": "Test Ad13",
+          "duration": 10000,
+          "assets": [{
+            "assetType": "video",
+            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "mute": false,
+            "duration": 0,
+            "filename": "bucket1.mp4",
+            "isPrimary": false,
+            "coordinates": {
+              "x": 0,
+              "y": 0,
+              "height": 30,
+              "width": 100
+            }
+          },
+            {
+              "assetType": "imageList",
+              "urls": [{
+                "url": "https://static.vecteezy.com/system/resources/previews/002/107/506/original/91-years-anniversary-celebration-logo-template-design-illustration-vector.jpg",
+                "filename": "illuration.jpg"
+              },
+                {
+                  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_LtrVoiz7CPrelm76hhAT8CDXad3pdx6SBg&usqp=CAU",
+                  "filename": "encrypted.jpg"
+                },
+                {
+                  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsW_0xlCJoGS16rPmIFypllMUTpP4qZTN0_Q&usqp=CAU",
+                  "filename": "gstatic.jpg"
+                },
+                {
+                  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlx7JEiLWZY1WHcntrhD4n3E29ph9_SnTsfw&usqp=CAU",
+                  "filename": "image.jpg"
+                }
+              ],
+              "mute": true,
+              "duration": 0,
+              "isPrimary": false,
+              "coordinates": {
+                "x": 0,
+                "y": 30,
+                "height": 30,
+                "width": 45
+              }
+            },
+            {
+              "assetType": "youtube",
+              "url": "II_m28Bm-iM",
+              "mute": true,
+              "duration": 0,
+              "isPrimary": false,
+              "coordinates": {
+                "x": 45,
+                "y": 30,
+                "height": 30,
+                "width": 55
+              }
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "name": "Test Ad13",
+          "duration": 10000,
+          "assets": [{
+            "assetType": "videoList",
+            "urls": [{
+              "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+              "filename": "bigbunnyy.mp4"
+            },
+              {
+                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                "filename": "Elephat2.mp4"
+              }
+            ],
+            "mute": false,
+            "duration": 15,
+            "isPrimary": false,
+            "coordinates": {
+              "x": 0,
+              "y": 0,
+              "height": 30,
+              "width": 100
+            }
+          },
+            {
+              "assetType": "image",
+              "url": "https://static.vecteezy.com/system/resources/previews/002/107/506/original/91-years-anniversary-celebration-logo-template-design-illustration-vector.jpg",
+              "mute": true,
+              "duration": 0,
+              "isPrimary": false,
+              "filename": "preview.jpg",
+              "coordinates": {
+                "x": 0,
+                "y": 30,
+                "height": 30,
+                "width": 100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

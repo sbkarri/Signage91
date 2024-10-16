@@ -1,0 +1,71 @@
+{
+    "statusCode": 200,
+    "data": {
+        "sectionDetails": {
+            "id": 2,
+            "name": "91Signage Section",
+            "coordinates":{
+                "x": 50,
+                "y": 75,
+                "height": 25,
+                "width": 50
+            }
+        },
+        "media": [
+            {
+                "id": 91,
+                "name": "91Signage Logo",
+                "duration": 60,
+                "assetCoordinates": [
+                    {
+                        "coordinates": {
+                            "x": 50,
+                            "y": 75,
+                            "height": 25,
+                            "width": 50
+                        },
+                        "assets": [
+                            {
+                                "id": 4336,
+                                "type": "video",
+                                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                                "duration": 62,
+                                "isPrimary": true,
+                                "repetitionAllowed": true,
+                                "mute": false,
+                                "filename": "mediabunny.mp4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 911,
+                "name": "91Signage Video",
+                "duration": 80,
+                "assetCoordinates": [
+                    {
+                        "coordinates": {
+                            "x": 50,
+                            "y": 75,
+                            "height": 25,
+                            "width": 50
+                        },
+                        "assets": [
+                            {
+                                "id": 4336,
+                                "type": "video",
+                                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                                "duration": 62,
+                                "isPrimary": true,
+                                "repetitionAllowed": true,
+                                "mute": false,
+                                "filename": "mediabunny.mp4"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

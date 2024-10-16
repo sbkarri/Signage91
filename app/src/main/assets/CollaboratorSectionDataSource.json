@@ -1,0 +1,91 @@
+{
+    "statusCode": 200,
+    "data": {
+        "sectionDetails": {
+            "id": 3,
+            "name": "Collaborator Section",
+            "coordinates":{
+                "x": 0,
+                "y": 50,
+                "height": 25,
+                "width": 50
+            }
+        },
+        "media": [
+            {
+                "id": 1,
+                "name": "welcome message",
+                "duration": 10,
+                "assetCoordinates": [
+                    {
+                        "coordinates":{
+                            "x": 0,
+                            "y": 50,
+                            "height": 25,
+                            "width": 25
+                        },
+                        "assets": [
+                            {
+                                "id": 1,
+                                "type": "image",
+                                "url": "https://static.vecteezy.com/system/resources/previews/002/107/506/original/91-years-anniversary-celebration-logo-template-design-illustration-vector.jpg",
+                                "duration": 10,
+                                "isPrimary": true,
+                                "repetitionAllowed": true,
+                                "mute": false,
+                                "filename": "welcome.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "coordinates":{
+                            "x": 25,
+                            "y": 50,
+                            "height": 25,
+                            "width": 25
+                        },
+                        "assets": [
+                            {
+                                "id": 2,
+                                "type": "image",
+                                "url": "https://static.vecteezy.com/system/resources/previews/002/107/506/original/91-years-anniversary-celebration-logo-template-design-illustration-vector.jpg",
+                                "duration": 10,
+                                "isPrimary": true,
+                                "repetitionAllowed": true,
+                                "mute": false,
+                                "filename": "late_payment.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "collab logo",
+                "duration": 10,
+                "assetCoordinates": [
+                    {
+                        "coordinates":{
+                            "x": 0,
+                            "y": 50,
+                            "height": 25,
+                            "width": 50
+                        },
+                        "assets": [
+                            {
+                                "id": 1,
+                                "type": "image",
+                                "url": "https://static.vecteezy.com/system/resources/previews/002/107/506/original/91-years-anniversary-celebration-logo-template-design-illustration-vector.jpg",
+                                "duration": 10,
+                                "isPrimary": true,
+                                "repetitionAllowed": true,
+                                "mute": false,
+                                "filename": "logo.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
