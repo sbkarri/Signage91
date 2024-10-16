@@ -1049,9 +1049,28 @@ class ComponentFragment : Fragment() {
         textViewSettingModel.widthValue.let {
             val layoutParams: AbsoluteLayout.LayoutParams
             if (it != 0 && textViewSettingModel.heightValue != 0) {
-                layoutParams = AbsoluteLayout.LayoutParams(textViewSettingModel.widthValue!!, textViewSettingModel.heightValue!!, getWidthByPercent(context, textViewSettingModel.xValue!!.toDouble()), getHeightByPercent(context, textViewSettingModel.yValue!!.toDouble()),)
+                layoutParams = AbsoluteLayout.LayoutParams(
+                    textViewSettingModel.widthValue!!,
+                    textViewSettingModel.heightValue!!,
+                    getWidthByPercent(
+                        context,
+                        textViewSettingModel.xValue!!.toDouble()),
+                    getHeightByPercent(
+                        context,
+                        textViewSettingModel.yValue!!.toDouble())
+                    )
             } else if (it == 0 && textViewSettingModel.heightValue != 0) {
-                layoutParams = AbsoluteLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, textViewSettingModel.heightValue!!, getWidthByPercent(context, textViewSettingModel.xValue!!.toDouble()), getHeightByPercent(context, textViewSettingModel.yValue!!.toDouble()),)
+                layoutParams = AbsoluteLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    textViewSettingModel.heightValue!!,
+                    getWidthByPercent(
+                        context,
+                        textViewSettingModel.xValue!!.toDouble()
+                    ),
+                    getHeightByPercent(
+                        context,
+                        textViewSettingModel.yValue!!.toDouble())
+                )
             } else if (it != 0 && textViewSettingModel.heightValue == 0) {
                 layoutParams = AbsoluteLayout.LayoutParams(
                     textViewSettingModel.widthValue!!,
